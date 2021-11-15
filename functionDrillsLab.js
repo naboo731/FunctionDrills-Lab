@@ -181,15 +181,15 @@ let loser = 'Glimmer'
 
 //CODE HERE
 
-function theEliminator(contestant, loser){
-for (i = 0; i <contestants.length; i++){
-  if (contestants[i] === "Glimmer"){
-    contestants.splice(3,1)
-  } 
-} return contestants
-}
-let run = theEliminator(contestants)
-console.log(run)
+// function theEliminator(contestant, loser){
+// for (i = 0; i <contestants.length; i++){
+//   if (contestants[i] === "Glimmer"){
+//     contestants.splice(3,1)
+//   } 
+// } return contestants
+// }
+// let run = theEliminator(contestants)
+// console.log(run)
 
 ////////////////// PROBLEM 11 ////////////////////
 let sampleString = "Hi, my name is Kylo."
@@ -200,6 +200,12 @@ let sampleString = "Hi, my name is Kylo."
 
 //CODE HERE
 
+// function printString(sampleString){
+//   sampleString = sampleString.toUpperCase()
+//  return sampleString
+// }
+
+// console.log(printString(sampleString))
 
 ////////////////// PROBLEM 12 ////////////////////
 /*
