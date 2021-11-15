@@ -250,13 +250,13 @@ let sampleString = "Hi, my name is Kylo."
 */
 
 //CODE HERE (Completed error in problem 13 using round function)
-function chocoFrogPurchaseCalc(goldAmount){
-    let amount = goldAmount / 3
-    let roundAmount = Math.round(amount)
-    return roundAmount
-  }
-  let totalFrogs = chocoFrogPurchaseCalc(16)
-  console.log(totalFrogs)
+// function chocoFrogPurchaseCalc(goldAmount){
+//     let amount = goldAmount / 3
+//     let roundAmount = Math.round(amount)
+//     return roundAmount
+//   }
+//   let totalFrogs = chocoFrogPurchaseCalc(16)
+//   console.log(totalFrogs)
   
 
 ////////////////// PROBLEM 15 ////////////////////
@@ -266,7 +266,16 @@ let sampleArray = [0,1,2,3,4,7,5,6,8,9]
 */
 
 //CODE HERE
-
+let value = "False"
+function ascendingChecker(array){
+ for (i = 0; i < array.length; i++)
+  if(array[i] >= array[i+ 1]){
+    console.log("False")
+  } else value = "True"
+  
+}
+let arrayIsAscending = ascendingChecker(sampleArray)
+console.log(arrayIsAscending)
 
 ////////////////// PROBLEM 16 ////////////////////
 
