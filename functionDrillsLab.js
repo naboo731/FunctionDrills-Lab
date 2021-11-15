@@ -235,22 +235,29 @@ let sampleString = "Hi, my name is Kylo."
 
 //CODE HERE
 
-function chocoFrogPurchaseCalc(goldAmount){
-  let amount = goldAmount / 3
-  let roundAmount = Math.round(amount)
-  return roundAmount
-}
-let totalFrogs = chocoFrogPurchaseCalc(25)
-console.log(totalFrogs)
+// function chocoFrogPurchaseCalc(goldAmount){
+//   let amount = goldAmount / 3
+//   let roundAmount = Math.round(amount)
+//   return roundAmount
+// }
+// let totalFrogs = chocoFrogPurchaseCalc(16)
+// console.log(totalFrogs)
 
 
 ////////////////// PROBLEM 14 ////////////////////
 /*
-  You might have noticed a slight bug in problem 12. If you were to pass in 4 gold, the function would return to you 1.3333... However, you can't really go to a store and by 1.333 products. You would just be able to purchase 1 product. Re-write the function you used in problem 12 (give it the same name, just add a 2 to the end of it) that fixes this bug. Invoke the function and store the returned value to a variable called `totalFrogs2`.
+  You might have noticed a slight bug in problem 13. If you were to pass in 4 gold, the function would return to you 1.3333... However, you can't really go to a store and by 1.333 products. You would just be able to purchase 1 product. Re-write the function you used in problem 13 (give it the same name, just add a 2 to the end of it) that fixes this bug. Invoke the function and store the returned value to a variable called `totalFrogs2`.
 */
 
-//CODE HERE
-
+//CODE HERE (Completed error in problem 13 using round function)
+function chocoFrogPurchaseCalc(goldAmount){
+    let amount = goldAmount / 3
+    let roundAmount = Math.round(amount)
+    return roundAmount
+  }
+  let totalFrogs = chocoFrogPurchaseCalc(16)
+  console.log(totalFrogs)
+  
 
 ////////////////// PROBLEM 15 ////////////////////
 let sampleArray = [0,1,2,3,4,7,5,6,8,9]
