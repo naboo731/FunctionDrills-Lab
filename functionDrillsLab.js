@@ -192,8 +192,8 @@ let loser = 'Glimmer'
 
 function theEliminator(contestant, loser){
 for (let i = 0; i <contestants.length; i++){
-  if (contestants[i] === "Glimmer"){
-    contestants.splice(3,1)
+  if (contestants[i] === loser){
+    contestants.splice(i,1)
   } 
 } return contestants
 }
