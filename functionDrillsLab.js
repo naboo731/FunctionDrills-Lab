@@ -39,11 +39,11 @@
 */
 
 //CODE HERE
-function greeting(name){
-  let stringName = String(name)
-  console.log(`Hello, ${name}`)
-}
-(greeting("Jake"))
+// function greeting(name){
+//   let stringName = String(name)
+//   console.log(`Hello, ${name}`)
+// }
+// (greeting("Jake"))
 
 ////////////////// PROBLEM 4 ////////////////////
 /*
@@ -54,6 +54,13 @@ function greeting(name){
 */
 
 //CODE HERE
+function add(num1, num2){
+  let addNum1 = Number(num1)
+  let addNum2 = Number(num2)
+  return num1 + num2
+}
+let sum = add(5, 7)
+console.log(sum)
 
 
 ////////////////// PROBLEM 5 ////////////////////
