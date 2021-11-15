@@ -128,7 +128,7 @@ function faveColorFinder(color){
 // //CODE HERE
 
 function printAllNames(namesArr){
-  for(i = 0; i < namesArr.length; i++){
+  for(let i = 0; i < namesArr.length; i++){
     console.log(namesArr[i])
   }
 }
@@ -191,7 +191,7 @@ let loser = 'Glimmer'
 // //CODE HERE
 
 function theEliminator(contestant, loser){
-for (i = 0; i <contestants.length; i++){
+for (let i = 0; i <contestants.length; i++){
   if (contestants[i] === "Glimmer"){
     contestants.splice(3,1)
   } 
@@ -280,7 +280,7 @@ let sampleArray2 = [0,1,2,3,4,5,6,7,8,9]
 let value = "True"
 
 function ascendingChecker(array){
- for (i = 0; i < array.length - 1; i++)
+ for (let i = 0; i < array.length - 1; i++)
   if(array[i] >= array[i + 1]){
     value = "False"
   } 
