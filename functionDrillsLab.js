@@ -54,13 +54,14 @@
 */
 
 //CODE HERE
-function add(num1, num2){
-  let addNum1 = Number(num1)
-  let addNum2 = Number(num2)
-  return num1 + num2
-}
-let sum = add(5, 7)
-console.log(sum)
+// function add(num1, num2){
+//   let addNum1 = Number(num1)
+//   let addNum2 = Number(num2)
+//   return num1 + num2
+// }
+// let sum = add(5, 10)
+// console.log(sum)
+// console.log(typeof num2)
 
 
 ////////////////// PROBLEM 5 ////////////////////
@@ -73,6 +74,16 @@ console.log(sum)
 */
 
 //CODE HERE
+// function nameCheck(name){
+//   if(name === "Steven"){
+//     console.log("What is up, Steven?")
+//   } else if(name === "Bryan"){
+//     console.log("Hey, Bryan!")
+//   } else console.log(`Cool name, ${name}`)
+// }
+
+// let nameGreeting = nameCheck("Nicki")
+// console.log(nameGreeting)
 
 
 ////////////////// PROBLEM 6 ////////////////////
@@ -86,6 +97,18 @@ console.log(sum)
 */
 
 //CODE HERE
+// function faveColorFinder(color){
+//   if(color === "red"){
+//     console.log("Red is a great color")
+//   } else if(color === "green"){
+//     console.log("Green is a solid favorite color")
+//   } else if(color === "black"){
+//     console.log("Soooo trendy")
+//   } else console.log("You need to re-evaluate your favorite color choice")
+// }
+
+//   let colorRating = faveColorFinder("yellow")
+//   console.log(colorRating)
 
 
 ////////////////// PROBLEM 7 ////////////////////
