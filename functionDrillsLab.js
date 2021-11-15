@@ -5,11 +5,12 @@
 */
 
 //CODE HERE
-//  function helloWorld(){
-//    console.log("Hello, World!")
-//  }
 
-//  helloWorld()
+ function helloWorld(){
+   console.log("Hello, World!")
+ }
+
+ helloWorld()
  
 
 ////////////////// PROBLEM 2 ////////////////////
@@ -20,11 +21,12 @@
 */
 
 // //CODE HERE
-// function printName(name){
-//   console.log(name)
-// }
 
-// printName("Cameron")
+function printName(name){
+  console.log(name)
+}
+
+printName("Cameron")
 
 
 ////////////////// PROBLEM 3 ////////////////////
@@ -39,11 +41,12 @@
 */
 
 // //CODE HERE
-// function greeting(name){
-//   let stringName = String(name)
-//   console.log(`Hello, ${name}`)
-// }
-// (greeting("Jake"))
+
+function greeting(name){
+  let stringName = String(name)
+  console.log(`Hello, ${name}`)
+}
+(greeting("Jake"))
 
 // ////////////////// PROBLEM 4 ////////////////////
 // /*
@@ -54,14 +57,15 @@
 // */
 
 // //CODE HERE
-// function add(num1, num2){
-//   let addNum1 = Number(num1)
-//   let addNum2 = Number(num2)
-//   return num1 + num2
-// }
-// let sum = add(5, 10)
-// console.log(sum)
-// console.log(typeof num2)
+
+function add(num1, num2){
+  let addNum1 = Number(num1)
+  let addNum2 = Number(num2)
+  return num1 + num2
+}
+let sum = add(5, 10)
+console.log(sum)
+console.log(typeof num2)
 
 
 ////////////////// PROBLEM 5 ////////////////////
@@ -74,16 +78,17 @@
 */
 
 // // CODE HERE
-// function nameCheck(name){
-//   if(name === "Steven"){
-//     console.log("What is up, Steven?")
-//   } else if(name === "Bryan"){
-//     console.log("Hey, Bryan!")
-//   } else console.log(`Cool name, ${name}`)
-// }
 
-// let nameGreeting = nameCheck("Nicki")
-// // console.log(nameGreeting)
+function nameCheck(name){
+  if(name === "Steven"){
+    console.log("What is up, Steven?")
+  } else if(name === "Bryan"){
+    console.log("Hey, Bryan!")
+  } else console.log(`Cool name, ${name}`)
+}
+
+let nameGreeting = nameCheck("Nicki")
+// console.log(nameGreeting)
 
 
 ////////////////// PROBLEM 6 ////////////////////
@@ -97,18 +102,19 @@
 */
 
 // // CODE HERE
-// function faveColorFinder(color){
-//   if(color === "red"){
-//     console.log("Red is a great color")
-//   } else if(color === "green"){
-//     console.log("Green is a solid favorite color")
-//   } else if(color === "black"){
-//     console.log("Soooo trendy")
-//   } else console.log("You need to re-evaluate your favorite color choice")
-// }
 
-//   let colorRating = faveColorFinder("yellow")
-// //   console.log(colorRating)
+function faveColorFinder(color){
+  if(color === "red"){
+    console.log("Red is a great color")
+  } else if(color === "green"){
+    console.log("Green is a solid favorite color")
+  } else if(color === "black"){
+    console.log("Soooo trendy")
+  } else console.log("You need to re-evaluate your favorite color choice")
+}
+
+  let colorRating = faveColorFinder("yellow")
+//   console.log(colorRating)
 
 
 // ////////////////// PROBLEM 7 ////////////////////
@@ -119,13 +125,14 @@
 //   Call the function, passing in the `namesArr` array (above).
 // */
 
-// //CODE HERE
-// function printAllNames(namesArr){
-//   for(i = 0; i < namesArr.length; i++){
-//     console.log(namesArr[i])
-//   }
-// }
-// printAllNames(namesArr)
+//CODE HERE
+
+function printAllNames(namesArr){
+  for(i = 0; i < namesArr.length; i++){
+    console.log(namesArr[i])
+  }
+}
+printAllNames(namesArr)
 
 
 ////////////////// PROBLEM 8 ////////////////////
@@ -137,13 +144,14 @@
 */
 
 // //CODE HERE
-// function thatsOdd(num){
-//   if(num % 2 === 0){
-//     console.log("That's not odd!")
-//   } else console.log("That is odd indeed!")
-// }
-// let oddChecker = thatsOdd(6)
-// // console.log(oddChecker)
+
+function thatsOdd(num){
+  if(num % 2 === 0){
+    console.log("That's not odd!")
+  } else console.log("That is odd indeed!")
+}
+let oddChecker = thatsOdd(6)
+// console.log(oddChecker)
 
 
 // ////////////////// PROBLEM 9 ////////////////////
@@ -157,18 +165,19 @@
 //   Return the answers array inside of the function to a variable called `arrayEvaluator`.
 // */
 
-// //CODE HERE
-// function bigOrSmall(bigOrSmallArray){
-//   let answers = []
-//   for(i = 0; i < bigOrSmallArray.length; i++){
-//     if(bigOrSmallArray[i] > 100){
-//       answers.push("Big")
-//     } else answers.push("Small")
-//   } return answers
-// }
+//CODE HERE
 
-// let arrayEvaluator = bigOrSmall(bigOrSmallArray)
-// // console.log(arrayEvaluator)
+function bigOrSmall(bigOrSmallArray){
+  let answers = []
+  for(i = 0; i < bigOrSmallArray.length; i++){
+    if(bigOrSmallArray[i] > 100){
+      answers.push("Big")
+    } else answers.push("Small")
+  } return answers
+}
+
+let arrayEvaluator = bigOrSmall(bigOrSmallArray)
+// console.log(arrayEvaluator)
 
 
 ////////////////// PROBLEM 10 ////////////////////
@@ -181,15 +190,15 @@ let loser = 'Glimmer'
 
 //CODE HERE
 
-// function theEliminator(contestant, loser){
-// for (i = 0; i <contestants.length; i++){
-//   if (contestants[i] === "Glimmer"){
-//     contestants.splice(3,1)
-//   } 
-// } return contestants
-// }
-// let run = theEliminator(contestants)
-// console.log(run)
+function theEliminator(contestant, loser){
+for (i = 0; i <contestants.length; i++){
+  if (contestants[i] === "Glimmer"){
+    contestants.splice(3,1)
+  } 
+} return contestants
+}
+let run = theEliminator(contestants)
+console.log(run)
 
 ////////////////// PROBLEM 11 ////////////////////
 let sampleString = "Hi, my name is Kylo."
@@ -200,12 +209,12 @@ let sampleString = "Hi, my name is Kylo."
 
 //CODE HERE
 
-// function printString(sampleString){
-//   sampleString = sampleString.toUpperCase()
-//  return sampleString
-// }
+function printString(sampleString){
+  sampleString = sampleString.toUpperCase()
+ return sampleString
+}
 
-// console.log(printString(sampleString))
+console.log(printString(sampleString))
 
 ////////////////// PROBLEM 12 ////////////////////
 /*
@@ -220,12 +229,12 @@ let sampleString = "Hi, my name is Kylo."
 
 //CODE HERE
 
-// function emailCheck(email){
-//   let stringEmail = String(email)
-//   let newEmail = stringEmail.trim()
-//   return newEmail
-// }
-// console.log(emailCheck("        nbooth@udel.edu       "))
+function emailCheck(email){
+  let stringEmail = String(email)
+  let newEmail = stringEmail.trim()
+  return newEmail
+}
+console.log(emailCheck("        nbooth@udel.edu       "))
 
 ////////////////// PROBLEM 13 ////////////////////
 /*
@@ -235,13 +244,13 @@ let sampleString = "Hi, my name is Kylo."
 
 //CODE HERE
 
-// function chocoFrogPurchaseCalc(goldAmount){
-//   let amount = goldAmount / 3
-//   let roundAmount = Math.round(amount)
-//   return roundAmount
-// }
-// let totalFrogs = chocoFrogPurchaseCalc(16)
-// console.log(totalFrogs)
+function chocoFrogPurchaseCalc(goldAmount){
+  let amount = goldAmount / 3
+  let roundAmount = Math.round(amount)
+  return roundAmount
+}
+let totalFrogs = chocoFrogPurchaseCalc(16)
+console.log(totalFrogs)
 
 
 ////////////////// PROBLEM 14 ////////////////////
@@ -250,13 +259,14 @@ let sampleString = "Hi, my name is Kylo."
 */
 
 //CODE HERE (Completed error in problem 13 using round function)
-// function chocoFrogPurchaseCalc(goldAmount){
-//     let amount = goldAmount / 3
-//     let roundAmount = Math.round(amount)
-//     return roundAmount
-//   }
-//   let totalFrogs = chocoFrogPurchaseCalc(16)
-//   console.log(totalFrogs)
+
+function chocoFrogPurchaseCalc(goldAmount){
+    let amount = goldAmount / 3
+    let roundAmount = Math.round(amount)
+    return roundAmount
+  }
+  let totalFrogs = chocoFrogPurchaseCalc(16)
+  console.log(totalFrogs)
   
 
 ////////////////// PROBLEM 15 ////////////////////
