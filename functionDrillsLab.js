@@ -5,11 +5,11 @@
 */
 
 //CODE HERE
- function helloWorld(){
-   console.log("Hello, World!")
- }
+//  function helloWorld(){
+//    console.log("Hello, World!")
+//  }
 
- helloWorld()
+//  helloWorld()
  
 
 ////////////////// PROBLEM 2 ////////////////////
@@ -20,6 +20,11 @@
 */
 
 //CODE HERE
+// function printName(name){
+//   console.log(name)
+// }
+
+// printName("Cameron")
 
 
 ////////////////// PROBLEM 3 ////////////////////
@@ -34,7 +39,11 @@
 */
 
 //CODE HERE
-
+function greeting(name){
+  let stringName = String(name)
+  console.log(`Hello, ${name}`)
+}
+(greeting("Jake"))
 
 ////////////////// PROBLEM 4 ////////////////////
 /*
