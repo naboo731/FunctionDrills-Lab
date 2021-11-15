@@ -235,6 +235,14 @@ let sampleString = "Hi, my name is Kylo."
 
 //CODE HERE
 
+function chocoFrogPurchaseCalc(goldAmount){
+  let amount = goldAmount / 3
+  let roundAmount = Math.round(amount)
+  return roundAmount
+}
+let totalFrogs = chocoFrogPurchaseCalc(25)
+console.log(totalFrogs)
+
 
 ////////////////// PROBLEM 14 ////////////////////
 /*
