@@ -19,7 +19,7 @@
   Call the function, passing in an argument.
 */
 
-//CODE HERE
+// //CODE HERE
 // function printName(name){
 //   console.log(name)
 // }
@@ -38,22 +38,22 @@
   Make sure to call your function and pass in an argument.
 */
 
-//CODE HERE
+// //CODE HERE
 // function greeting(name){
 //   let stringName = String(name)
 //   console.log(`Hello, ${name}`)
 // }
 // (greeting("Jake"))
 
-////////////////// PROBLEM 4 ////////////////////
-/*
-  Create a function called add that takes in two parameters 
-  Inside, convert the arguments to be numbers (just in case strings get sent in)
-  The add function should RETURN the two parameters added together.
-  Create a variable outside the function called 'sum' and set it equal to add invoked (called), passing in 2 arguments.
-*/
+// ////////////////// PROBLEM 4 ////////////////////
+// /*
+//   Create a function called add that takes in two parameters 
+//   Inside, convert the arguments to be numbers (just in case strings get sent in)
+//   The add function should RETURN the two parameters added together.
+//   Create a variable outside the function called 'sum' and set it equal to add invoked (called), passing in 2 arguments.
+// */
 
-//CODE HERE
+// //CODE HERE
 // function add(num1, num2){
 //   let addNum1 = Number(num1)
 //   let addNum2 = Number(num2)
@@ -73,7 +73,7 @@
   Create a variable called 'nameGreeting' and set it equal to your function invoked (called) passing in an argument.
 */
 
-//CODE HERE
+// // CODE HERE
 // function nameCheck(name){
 //   if(name === "Steven"){
 //     console.log("What is up, Steven?")
@@ -83,7 +83,7 @@
 // }
 
 // let nameGreeting = nameCheck("Nicki")
-// console.log(nameGreeting)
+// // console.log(nameGreeting)
 
 
 ////////////////// PROBLEM 6 ////////////////////
@@ -96,7 +96,7 @@
   Create a variable called 'colorRating' and set it equal to faveColorFinder invoked (called), passing in an argument.
 */
 
-//CODE HERE
+// // CODE HERE
 // function faveColorFinder(color){
 //   if(color === "red"){
 //     console.log("Red is a great color")
@@ -108,18 +108,18 @@
 // }
 
 //   let colorRating = faveColorFinder("yellow")
-//   console.log(colorRating)
+// //   console.log(colorRating)
 
 
-////////////////// PROBLEM 7 ////////////////////
-let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
-/*
-  Create a function called printAllNames that takes in a single argument (an array of names).
-  Using a for loop, iterate over that array and console log each name.
-  Call the function, passing in the `namesArr` array (above).
-*/
+// ////////////////// PROBLEM 7 ////////////////////
+// let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
+// /*
+//   Create a function called printAllNames that takes in a single argument (an array of names).
+//   Using a for loop, iterate over that array and console log each name.
+//   Call the function, passing in the `namesArr` array (above).
+// */
 
-//CODE HERE
+// //CODE HERE
 // function printAllNames(namesArr){
 //   for(i = 0; i < namesArr.length; i++){
 //     console.log(namesArr[i])
@@ -136,39 +136,39 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
   Outside the function, create a variable called `oddChecker` and set it equal to your function invoked, making sure to pass in an argument.
 */
 
-//CODE HERE
+// //CODE HERE
 // function thatsOdd(num){
 //   if(num % 2 === 0){
 //     console.log("That's not odd!")
 //   } else console.log("That is odd indeed!")
 // }
 // let oddChecker = thatsOdd(6)
-// console.log(oddChecker)
+// // console.log(oddChecker)
 
 
-////////////////// PROBLEM 9 ////////////////////
-let bigOrSmallArray = [1,101, 102, 2, 103, 4, 5, 6, 107]
-/* 
-  Create a function called 'bigOrSmall' that takes in one parameter, 'arr',  which will be an array of numbers. 
-  Inside of the bigOrSmall function, create a new array called 'answers'. 
-  Then, loop over the passed in arr parameter, and check to see if the number in the array is GREATER than 100. 
-  If it is, push 'big' as a string to the answers array. 
-  If the number is LESS than or EQUAL to 100, push 'small' as a string to the answers array. 
-  Return the answers array inside of the function to a variable called `arrayEvaluator`.
-*/
+// ////////////////// PROBLEM 9 ////////////////////
+// let bigOrSmallArray = [1,101, 102, 2, 103, 4, 5, 6, 107]
+// /* 
+//   Create a function called 'bigOrSmall' that takes in one parameter, 'arr',  which will be an array of numbers. 
+//   Inside of the bigOrSmall function, create a new array called 'answers'. 
+//   Then, loop over the passed in arr parameter, and check to see if the number in the array is GREATER than 100. 
+//   If it is, push 'big' as a string to the answers array. 
+//   If the number is LESS than or EQUAL to 100, push 'small' as a string to the answers array. 
+//   Return the answers array inside of the function to a variable called `arrayEvaluator`.
+// */
 
-//CODE HERE
-function bigOrSmall(bigOrSmallArray){
-  let answers = []
-  for(i = 0; i < bigOrSmallArray.length; i++){
-    if(bigOrSmallArray[i] > 100){
-      answers.push("Big")
-    } else answers.push("Small")
-  } return answers
-}
+// //CODE HERE
+// function bigOrSmall(bigOrSmallArray){
+//   let answers = []
+//   for(i = 0; i < bigOrSmallArray.length; i++){
+//     if(bigOrSmallArray[i] > 100){
+//       answers.push("Big")
+//     } else answers.push("Small")
+//   } return answers
+// }
 
-let arrayEvaluator = bigOrSmall(bigOrSmallArray)
-console.log(arrayEvaluator)
+// let arrayEvaluator = bigOrSmall(bigOrSmallArray)
+// // console.log(arrayEvaluator)
 
 
 ////////////////// PROBLEM 10 ////////////////////
@@ -181,6 +181,15 @@ let loser = 'Glimmer'
 
 //CODE HERE
 
+function theEliminator(contestant, loser){
+for (i = 0; i <contestants.length; i++){
+  if (contestants[i] === "Glimmer"){
+    contestants.splice(3,1)
+  } 
+} return contestants
+}
+let run = theEliminator(contestants)
+console.log(run)
 
 ////////////////// PROBLEM 11 ////////////////////
 let sampleString = "Hi, my name is Kylo."
