@@ -137,13 +137,13 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
-function thatsOdd(num){
-  if(num % 2 === 0){
-    console.log("That's not odd!")
-  } else console.log("That is odd indeed!")
-}
-let oddChecker = thatsOdd(6)
-console.log(oddChecker)
+// function thatsOdd(num){
+//   if(num % 2 === 0){
+//     console.log("That's not odd!")
+//   } else console.log("That is odd indeed!")
+// }
+// let oddChecker = thatsOdd(6)
+// console.log(oddChecker)
 
 
 ////////////////// PROBLEM 9 ////////////////////
@@ -158,6 +158,17 @@ let bigOrSmallArray = [1,101, 102, 2, 103, 4, 5, 6, 107]
 */
 
 //CODE HERE
+function bigOrSmall(bigOrSmallArray){
+  let answers = []
+  for(i = 0; i < bigOrSmallArray.length; i++){
+    if(bigOrSmallArray[i] > 100){
+      answers.push("Big")
+    } else answers.push("Small")
+  } return answers
+}
+
+let arrayEvaluator = bigOrSmall(bigOrSmallArray)
+console.log(arrayEvaluator)
 
 
 ////////////////// PROBLEM 10 ////////////////////
