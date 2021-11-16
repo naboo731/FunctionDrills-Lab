@@ -201,7 +201,7 @@ let run = theEliminator(contestants)
 console.log(run)
 
 // ////////////////// PROBLEM 11 ////////////////////
-// let sampleString = "Hi, my name is Kylo."
+let sampleString = "Hi, my name is Kylo."
 // /*
 //   Write a function that takes in one argument, a string. The function should then console.log that string, in entirely uppercase characters.
 //   Invoke the function, passing in the sampleString (above).
